@@ -2,46 +2,52 @@
 \makesignature
 
 \ifproject
-\begin{abstractTH}
-การเขียนรายงานเป็นส่วนหนึ่งของการทำโครงงานวิศวกรรมคอมพิวเตอร์
-   เพื่อทบทวนทฤษฎีที่เกี่ยวข้อง อธิบายขั้นตอนวิธีแก้ปัญหาเชิงวิศวกรรม และวิเคราะห์และสรุปผลการทดลองอุปกรณ์และระบบต่างๆ
-\enskip อย่างไรก็ดี การสร้างรูปเล่มรายงานให้ถูกรูปแบบนั้นเป็นขั้นตอนที่ยุ่งยาก
-แม้ว่าจะมีต้นแบบสำหรับใช้ในโปรแกรม Microsoft Word แล้วก็ตาม
-แต่นักศึกษาส่วนใหญ่ยังคงค้นพบว่าการใช้งานมีความซับซ้อน และเกิดความผิดพลาดในการจัดรูปแบบ กำหนดเลขหัวข้อ และสร้างสารบัญอยู่
-\enskip ภาควิชาวิศวกรรมคอมพิวเตอร์จึงได้จัดทำต้นแบบรูปเล่มรายงานโดยใช้ระบบจัดเตรียมเอกสาร
-\LaTeX{} เพื่อช่วยให้นักศึกษาเขียนรายงานได้อย่างสะดวกและรวดเร็วมากยิ่งขึ้น
-\end{abstractTH}
+   \begin{abstractTH}
+      \par ในแต่ละปีการศึกษา สำนักทะเบียนและประมวลผลมหาวิทยาลัยเชียงใหม่ จำเป็นจะต้องจะต้องจัดทำร่างปฏิทินการศึกษาสำหรับปีการศึกษาถัดไปเป็นประจำทุกปี \enskip
+      ซึ่งในการทำร่างปฏิทิน ซึ่งในปฏิทินประกอบไปด้วยกำหนดการของกิจกรรมการศึกษาต่างๆ เช่น วันเปิดภาคเรียน วันลงทะเบียนเรียน วันสอบ เป็นต้น\enskip
+      ซึ่งวันกำหนดการต่างๆ จะมีเงื่อนไขที่อ้างอิงกับวันกำหนดการต่างๆ ซึ่งทำให้การทำร่งปฏิทินขึ้นมาหนึ่งร่าง มีความยุ่งยากในการทำมากจนใช้เวลาเป็นสัปดาห์\enskip
+      และยังต้องมาแก้ใหม่หากกรรมการของมหาวิทยาลัยเชียงใหม่ไม่ให้ความเห็นชอบ\enskip
 
-\begin{abstract}
-The abstract would be placed here. It usually does not exceed 350 words
-long (not counting the heading), and must not take up more than one (1) page
-(even if fewer than 350 words long).
+      จากปัญหาข้างต้น ผู้จัดทำได้จัดทำโปรแกรมวางแผนปฏิทินการศึกษา มหาวิทยาลัยเชียงใหม่ เพื่อเป็นเครื่องมือที่ช่วยให้ผู้จัดทำร่างปฏิทินของสำนักทะเบียน
+      เพื่อช่วยลดระยะในการจัดทำปฏิทินลงได้ อีกทั้งสามารถเพิ่มวามสะดวกในการจัดทำร่างปฏิทินได้ สามารถแก้ไข สร้าง หรือทำซ้ำร่างปฏิทินที่มีฉบับที่คล้าคลึงกัน
+      โปรแกรมดังกล่าวก็สามารถตอบสนองได้
+   \end{abstractTH}
 
-Make sure your abstract sits inside the \texttt{abstract} environment.
-\end{abstract}
+   \begin{abstract}
+      in each academic year Chiang Mai University Registration and Processing Office It is necessary to make
+      Outline an academic calendar for the next academic year annually. which in drafting the calendar in which the accompanying calendar
+      along with the schedule of various educational activities such as the opening day of the semester registration day, exam date, etc.
+      which scheduled dates There will be conditions that refer to various scheduled dates. which makes one draft of the calendar have
+      The complexity of making it took weeks. And still have to come and fix it again if the director of the University of Chiang-
+      new disapproval
+      from the above problem The organizer has prepared an academic calendar planning program. Chiang Mai University for
+      A tool that helps drafters of the registry's calendar. To help reduce the time for making calendars, it can also be
+      It is convenient to create a draft calendar. You can edit, create or duplicate a draft calendar with similar editions.
+      together, such programs can respond.
+   \end{abstract}
 
-\iffalse
-\begin{dedication}
-This document is dedicated to all Chiang Mai University students.
+   \iffalse
+      \begin{dedication}
+         This document is dedicated to all Chiang Mai University students.
 
-Dedication page is optional.
-\end{dedication}
-\fi % \iffalse
+         Dedication page is optional.
+      \end{dedication}
+   \fi % \iffalse
 
-\begin{acknowledgments}
-Your acknowledgments go here. Make sure it sits inside the
-\texttt{acknowledgment} environment.
+   \begin{acknowledgments}
+      Your acknowledgments go here. Make sure it sits inside the
+      \texttt{acknowledgment} environment.
 
-\acksign{2022}{2}{18}
-\end{acknowledgments}%
+      \acksign{2022}{2}{18}
+   \end{acknowledgments}%
 \fi % \ifproject
 
 \contentspage
 
 \ifproject
-\figurelistpage % สารบัญรูป 
+   \figurelistpage % สารบัญรูป 
 
-\tablelistpage  % สารบัญตาราง
+   \tablelistpage  % สารบัญตาราง
 \fi % \ifproject
 
 % \abbrlist % this page is optional
